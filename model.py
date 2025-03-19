@@ -1,7 +1,6 @@
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
-from sklearn.externals import joblib
-from config import MODEL_PATH
+import joblib
 
 MODEL_PATH = 'saved_models/'
 
